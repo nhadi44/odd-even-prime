@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.container-left {
+  flex: 30%;
+  margin: 3em;
+}
+
+.text-header {
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.text-desc {
+  font-size: 20px;
+  color: rgb(122, 122, 122);
+}
+
+.form-input {
+  margin-top: 2em;
+}
+
+.text-sm {
+  font-size: 15px;
+}
+
+.input-number {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(231, 231, 231, 1);
+  border-radius: 6px;
+}
+
+.btn-input {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-odd,
+.btn-even,
+.btn-prime {
+  width: 100px;
+  padding: 12px;
+  margin-right: 10px;
+  flex-direction: row-reverse;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-odd {
+  background-color: rgb(25, 135, 84, 1);
+  color: white;
+}
+
+.btn-odd:hover {
+  background-color: rgb(19, 107, 66);
+}
+
+.btn-even {
+  background-color: rgb(220, 53, 69, 1);
+  color: white;
+}
+
+.btn-even:hover {
+  background-color: rgb(182, 44, 58, 1);
+}
+
+.btn-prime {
+  background-color: rgb(13, 110, 253, 1);
+  color: white;
+}
+
+.btn-prime:hover {
+  background-color: rgb(10, 91, 212, 1);
+}
+
+.container-right {
+  flex: 70%;
+  background-image: url(src/background/background.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+div#result-number {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.display-number {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  color: rgba(255, 96, 0, 1);
+}
+
+.display-result {
+  background-color: rgba(255, 255, 255, 0.856);
+  width: 50%;
+  height: 30em;
+  margin: 10em;
+  border-radius: 10px;
+  /* display: flex; */
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-md {
+  font-size: 35px;
+  margin-top: 20px;
+}

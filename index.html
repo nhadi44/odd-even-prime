@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Odd, Even & Prime</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="container-left">
+        <div class="text-header">
+          <h1>Series of even, odd & prime numbers</h1>
+        </div>
+        <div class="text-desc">
+          <p>
+            a simple application to create a series of odd even and prime
+            numbers
+          </p>
+        </div>
+        <div class="form-input">
+          <form action="" id="form">
+            <p class="text-sm">Input Number</p>
+            <input type="text" id="input-number" class="input-number" />
+            <div class="btn-input">
+              <button class="btn-odd" type="button" onclick="handleOdd()">
+                Odd
+              </button>
+              <button class="btn-even" type="button" onclick="handleEven()">
+                Even
+              </button>
+              <button class="btn-prime" type="button" onclick="handlePrima()">
+                Prime
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="container-right">
+        <div class="display-result">
+          <h3 class="text-md">Result</h3>
+          <div id="result-number"></div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
